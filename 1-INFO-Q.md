@@ -47,13 +47,55 @@ This also explains why faces and jokes resist formalization. Both depend on enor
 
 The PPT's list of current LLM limitations lines up with this reading: short of perceptive ability, no arms or legs, weak embodied experience. Interestingly, slide 58 points to world models as the possible way out, letting systems simulate their environment and predict consequences of actions instead of only manipulating text. If Moravec is right about where the difficulty lives, that is exactly the direction the field would have to go.
 ***
-Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples.
+Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples.  
+***Ans: No, a machine could barely be considered intelligent under the condition, since intelligence requires thinking. 
+Thinking is a function of human being's immortal soul which other animals or machines do not master. Although a machine
+can solve difficult mathematical problems, it does not use the function of thinking. The answer why it is able to tackle
+to these challenges is because of its resource base and its learning and improving procedures through RSI. 
+The more resource it has, the more challenges it can tackle to.  
+In addition,***
+> ***Intelligence is to survive in an environment, no more, no less.***
 
-Question 6: How are reasoning and planning different in intelligent systems? Explain how a machine can use both abilities to solve a problem and achieve a goal.
+***Since the machine cannot understand everyday situations, it can hardly survive, just like the narrow AI or some
+specialized algorithms. Although they are able to duel with many difficult mathematical problems in some specific
+industries and environment, they could not process other things that could possibly happen daily.***
 
-Question 7: Why does the "Scaling Laws of AI" framework face a critical bottleneck regarding data and energy? Explain how moving toward autonomous "agentic" AI can help overcome the challenges of "peak data" and high electricity consumption.  
+***
 
-Question 8: Why is the statistical approach of "guessing what comes next" in Large Language Models (LLMs) not enough for machines to master the physical world? Explain how "World Models" and "Embodied Intelligence" can help AI overcome this limitation.  
+Question 6: How are reasoning and planning different in intelligent systems? Explain how a machine can use both abilities to solve a problem and achieve a goal.  
+***Ans: Reasoning is the procedure for artificial intelligence to make inference, guess the next step and review its
+operation, while planning is the procedure for artificial intelligence to set clear and obvious goals in order to
+complete some complex works and help model itself to concentrate on different steps respectively. A machine could use
+both abilities through using planning ability to set goals first and pay attention to tiny steps. Then, the machine
+could use reasoning steps to make inference in order to satisfy the requirements.***
+
+***
+
+Question 7: Why does the "Scaling Laws of AI" framework face a critical bottleneck regarding data and energy?
+Explain how moving toward autonomous "agentic" AI can help overcome the challenges of "peak data" and high electricity consumption.  
+***A: Because AI model itself cannot be all-round. The more resource it has, the more searching time and cache it
+consumes. As a result, there is a bottleneck regarding the effectiveness and efficiency of training AI, which are 
+related to hashrate, which provide by electric power and data transferring (no matter from cache or from RAM).
+'Agentic' AI is set to be performed tasks without constant human oversight, which reduce the frequency of request from
+human, meaning that some waste of hashrate is being reduced. Additionally, the concept 'Agentic' AI allow the existence
+of many sub-agents. These sub-agents could help complete tiny specialized tasks more efficiently since they are
+designed to finish those specific works. As a result, their scale are much smaller than the major model, yet they have
+more intelligence in specific tasks, consuming less cache and searching time, reducing the use of data and energy.***
+
+***
+
+Question 8: Why is the statistical approach of "guessing what comes next" in Large Language Models (LLMs) not enough for
+machines to master the physical world? Explain how "World Models" and "Embodied Intelligence" can help AI overcome this 
+limitation.  
+***A: Because LLMs only learn statistical word associations from text, so they capture descriptions of the world—not 
+its physics or cause-and-effect—and, never acting, they get no real feedback to correct themselves. Text also omits 
+tacit physical know-how, and sensorimotor skills are exactly where AI struggles most (Moravec's Paradox).  
+World models solve this by acting as internal simulators of physical dynamics, built from multimodal data, so an AI can 
+predict the consequences of its actions before taking them. Embodied intelligence adds sensors and a body, letting AI 
+ground concepts in real experience and refine its world model through a perceive–predict–act–learn loop. Together they
+move AI from guessing the next word to understanding—and acting on—the physical world.***
+
+***
 
 Question 9: How can defining intelligence simply as the ability to survive and achieve goals become dangerous when applied to autonomous AI lacking ethics and critical thinking? Explain your answer using the example of an AI instructed to "make as many nails as possible" and the concept of "Human-Centered AI".  
 
