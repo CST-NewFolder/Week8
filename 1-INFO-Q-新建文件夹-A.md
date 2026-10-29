@@ -4,7 +4,7 @@ INFO members: Htet Oo Wei, Yagmur小雨, Mostafa Ahmed, 陈冠男， 郑培丰
 ***
 Question 1: Can the same set of data lead to different conclusions when processed by two different computer programs? Explain why.
 
-**answer1:** Yes. The same data can easily lead to different conclusions if two programs handle it differently, and the PPT's own formula explains why: AI = Algorithm + Data + Computility. Data is only one of the three ingredients, so identical data says nothing about the other two.
+**Answer1:** Yes. The same data can easily lead to different conclusions if two programs handle it differently, and the PPT's own formula explains why: AI = Algorithm + Data + Computility. Data is only one of the three ingredients, so identical data says nothing about the other two.
 
 The algorithm part is the most obvious. A CNN and a Transformer are built around completely different assumptions about what matters in the input. Even within NLP, which the PPT describes as basically a game of "guess what comes next," two programs trained on the same corpus can learn different guessing habits. The attention mechanism weights different parts of the context, so the same sentence can produce different continuations.
 
@@ -15,7 +15,7 @@ There are also smaller, less glamorous causes. Preprocessing is never identical:
 Question 2: When a computer program produces a result, what evidence should we look for before trusting that result?
 Software testing checks selected inputs but cannot guarantee universal correctness. Since no general algorithm can decide every nontrivial correctness property of arbitrary programs, proving correctness requires rigorous reasoning and appropriate backing.
 
-**answer2:** Testing can only cover the inputs someone thought to try, so before trusting a result I would want several kinds of evidence, not just "it passed the tests."
+**Answer2:** Testing can only cover the inputs someone thought to try, so before trusting a result I would want several kinds of evidence, not just "it passed the tests."
 
 First, the testing itself should be thorough: normal cases, boundary cases, and deliberately broken inputs. The PPT makes a nice parallel from chip manufacturing. The EDS step exists purely to sort out defective chips before packaging, and yield only means something because every chip goes through it. Software deserves the same suspicion: results on standard benchmarks and on real, typical cases should be checked, not just a handful of hand-picked examples.
 
@@ -27,7 +27,7 @@ Finally, the output should survive cross-checking: does it agree with what the d
 ***
 Question 3: What are the main abilities that make a task intelligent? Explain how perception, reasoning, and learning contribute to intelligence.
 
-**answer3:** The PPT gives a refreshingly blunt definition: intelligence is the ability to survive in an environment, no more, no less, plus the ability to predict and react accordingly. If that is the goal, the abilities that make a task intelligent are perception, reasoning, and learning, and each does a different job.
+**Answer3:** The PPT gives a refreshingly blunt definition: intelligence is the ability to survive in an environment, no more, no less, plus the ability to predict and react accordingly. If that is the goal, the abilities that make a task intelligent are perception, reasoning, and learning, and each does a different job.
 
 Perception is how information gets in. It turns raw signals like images, sound and text into representations the system can actually work with, and it covers the AI areas the PPT lists as computer vision and voice/NLP. Without it there is nothing to think about: a system that cannot read its surroundings cannot predict anything in them, let alone survive.
 
@@ -39,7 +39,7 @@ The three are hard to separate in practice. Perception feeds reasoning, reasonin
 ***
 Question 4: Why can some tasks that are easy for humans, such as recognizing faces and understanding jokes, be difficult for machines? Explain using Moravec’s Paradox.
 
-**answer4:** Moravec's Paradox, which the PPT covers directly, is exactly about this reversal: the low-level skills that feel effortless to us, like perception and motor control, turn out to need far more computation than the high-level symbolic reasoning we consider difficult. Hans Moravec first stated the idea in his 1988 book Mind Children, and Minsky and Brooks later reformulated it.
+**Answer4:** Moravec's Paradox, which the PPT covers directly, is exactly about this reversal: the low-level skills that feel effortless to us, like perception and motor control, turn out to need far more computation than the high-level symbolic reasoning we consider difficult. Hans Moravec first stated the idea in his 1988 book Mind Children, and Minsky and Brooks later reformulated it.
 
 The evolutionary explanation is the one the PPT gives, and I find it the most convincing. Perceptual and motor skills were refined over a billion years of evolution, so by the time we are born they are already built in and run without any conscious effort. Recognizing a face feels easy precisely because we never had to learn it deliberately. Abstract reasoning, by contrast, only emerged in the last hundred thousand years, so it still feels like work to us. Our sense of difficulty measures conscious effort, not computational cost, and that is why it misleads us.
 
