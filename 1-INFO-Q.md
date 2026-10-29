@@ -1,7 +1,7 @@
 Introduction to Computer Science
 
 INFO members: Htet Oo Wei, Yagmur小雨, Mostafa Ahmed, 陈冠男， 郑培丰
-
+***
 Question 1: Can the same set of data lead to different conclusions when processed by two different computer programs? Explain why.
 
 **answer1:** Yes. The same data can easily lead to different conclusions if two programs handle it differently, and the PPT's own formula explains why: AI = Algorithm + Data + Computility. Data is only one of the three ingredients, so identical data says nothing about the other two.
@@ -24,9 +24,9 @@ Second, there should be a theoretical reason to expect the program to work. The 
 Third, I want to be able to see why the program produced its output. The PPT singles out lack of interpretability as a major weakness of today's large language models, and warns that uninterpretable AI can have serious consequences in cases like medical decisions. A result that comes out of a black box is hard to trust even when it looks right, because there is no way to tell whether it is right for the right reasons.
 
 Finally, the output should survive cross-checking: does it agree with what the domain already knows, and can an independent method reproduce it? An AI suggesting a diagnosis still has to make sense against clinical knowledge. If a result only one program can produce and nobody can verify it another way, that is a reason to hold onto it loosely.
-
-Question 3: What are the main abilities that make a task intelligent? Explain how perception, reasoning, and learning contribute to intelligence.
 ***
+Question 3: What are the main abilities that make a task intelligent? Explain how perception, reasoning, and learning contribute to intelligence.
+
 **answer3:** The PPT gives a refreshingly blunt definition: intelligence is the ability to survive in an environment, no more, no less, plus the ability to predict and react accordingly. If that is the goal, the abilities that make a task intelligent are perception, reasoning, and learning, and each does a different job.
 
 Perception is how information gets in. It turns raw signals like images, sound and text into representations the system can actually work with, and it covers the AI areas the PPT lists as computer vision and voice/NLP. Without it there is nothing to think about: a system that cannot read its surroundings cannot predict anything in them, let alone survive.
@@ -36,9 +36,9 @@ Reasoning is what happens to that information. It means drawing conclusions that
 Learning is what makes the other two get better over time. Instead of being programmed for every situation, a learning system extracts patterns from data and experience, which is what machine learning and data mining are about in the PPT's list. This is the adaptiveness part: an intelligent system improves without being rewritten.
 
 The three are hard to separate in practice. Perception feeds reasoning, reasoning acts on the world, learning updates both from the results. A system with only one of them looks less like intelligence and more like a very specialized tool.
-
-Question 4: Why can some tasks that are easy for humans, such as recognizing faces and understanding jokes, be difficult for machines? Explain using Moravec’s Paradox.
 ***
+Question 4: Why can some tasks that are easy for humans, such as recognizing faces and understanding jokes, be difficult for machines? Explain using Moravec’s Paradox.
+
 **answer4:** Moravec's Paradox, which the PPT covers directly, is exactly about this reversal: the low-level skills that feel effortless to us, like perception and motor control, turn out to need far more computation than the high-level symbolic reasoning we consider difficult. Hans Moravec first stated the idea in his 1988 book Mind Children, and Minsky and Brooks later reformulated it.
 
 The evolutionary explanation is the one the PPT gives, and I find it the most convincing. Perceptual and motor skills were refined over a billion years of evolution, so by the time we are born they are already built in and run without any conscious effort. Recognizing a face feels easy precisely because we never had to learn it deliberately. Abstract reasoning, by contrast, only emerged in the last hundred thousand years, so it still feels like work to us. Our sense of difficulty measures conscious effort, not computational cost, and that is why it misleads us.
@@ -46,9 +46,9 @@ The evolutionary explanation is the one the PPT gives, and I find it the most co
 This also explains why faces and jokes resist formalization. Both depend on enormous amounts of implicit knowledge: what a face looks like under any lighting or angle, or the context, timing and shared assumptions a joke needs to land. None of this comes with clean rules we could write down, because we never learned it from rules in the first place. Chess and arithmetic went the other way: fully specified rules, exactly the kind of problem computers were built for, which is why machines beat us there decades ago.
 
 The PPT's list of current LLM limitations lines up with this reading: short of perceptive ability, no arms or legs, weak embodied experience. Interestingly, slide 58 points to world models as the possible way out, letting systems simulate their environment and predict consequences of actions instead of only manipulating text. If Moravec is right about where the difficulty lives, that is exactly the direction the field would have to go.
-
-Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples.
 ***
+Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples.
+
 Question 6: How are reasoning and planning different in intelligent systems? Explain how a machine can use both abilities to solve a problem and achieve a goal.
 
 Question 7: Why does the "Scaling Laws of AI" framework face a critical bottleneck regarding data and energy? Explain how moving toward autonomous "agentic" AI can help overcome the challenges of "peak data" and high electricity consumption.  
