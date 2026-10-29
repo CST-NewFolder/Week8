@@ -2,16 +2,16 @@ Introduction to Computer Science
 
 INFO members: Htet Oo Wei, Yagmur小雨, Mostafa Ahmed, 陈冠男， 郑培丰
 
-Question 1: Can the same set of data lead to different conclusions when processed by two different computer programs? Explain why._
+Question 1: Can the same set of data lead to different conclusions when processed by two different computer programs? Explain why.
 
-Question 2: When a computer program produces a result, what evidence should we look for before trusting that result?_
+Question 2: When a computer program produces a result, what evidence should we look for before trusting that result?
 Software testing checks selected inputs but cannot guarantee universal correctness. Since no general algorithm can decide every nontrivial correctness property of arbitrary programs, proving correctness requires rigorous reasoning and appropriate backing.
 
-Question 3: What are the main abilities that make a task intelligent? Explain how perception, reasoning, and learning contribute to intelligence._
+Question 3: What are the main abilities that make a task intelligent? Explain how perception, reasoning, and learning contribute to intelligence.
 
-Question 4: Why can some tasks that are easy for humans, such as recognizing faces and understanding jokes, be difficult for machines? Explain using Moravec’s Paradox._
+Question 4: Why can some tasks that are easy for humans, such as recognizing faces and understanding jokes, be difficult for machines? Explain using Moravec’s Paradox.
 
-Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples._
+Question 5: Can a machine be considered intelligent if it can solve difficult mathematical problems but cannot understand everyday situations? Explain your answer with examples.
 
 Question 6: How are reasoning and planning different in intelligent systems? Explain how a machine can use both abilities to solve a problem and achieve a goal.
 
