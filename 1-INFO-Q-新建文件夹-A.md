@@ -1,6 +1,7 @@
 Introduction to Computer Science
 
 INFO members: Htet Oo Wei, Yagmur小雨, Mostafa Ahmed, 陈冠男， 郑培丰
+新建文件夹members: 劉光毅，张益铭，陈冠宏，张梓伦
 ***
 Question 1: Can the same set of data lead to different conclusions when processed by two different computer programs? Explain why.
 
@@ -96,11 +97,11 @@ Answer：We have not learn c++ now and your question is too hard to answer. Stop
 ***
 
 Question 14: In C++20, can a compare-and-swap operation using memory_order_release on success and memory_order_acquire on failure be valid? 
-Explain why or why not, and identify the weakest legal success and failure memory-order combination for a compare-and-swap operation that must publish writes on success and acquire updates on failure.
+Explain why or why not, and identify the weakest legal success and failure memory-order combination for a compare-and-swap operation that must publish writes on success and acquire updates on failure.  
 Answer：We have not learn c++ now and your question is too hard to answer. Stop using ai to generate your question.
 
 ***
 
 Question 15: Why Do AI Systems Continue Solving Problems They Have Reason to Question?
-A user’s request may contain false assumptions or missing constraints. An AI system may recognize these flaws yet continue reasoning from the original premise, producing unreliable conclusions. However, questioning every assumption is also problematic because some assumptions may be intentional or hypothetical. A reliable AI system must balance instruction-following with critical evaluation, challenging assumptions that undermine a task without unnecessarily rejecting valid requests.
+A user’s request may contain false assumptions or missing constraints. An AI system may recognize these flaws yet continue reasoning from the original premise, producing unreliable conclusions. However, questioning every assumption is also problematic because some assumptions may be intentional or hypothetical. A reliable AI system must balance instruction-following with critical evaluation, challenging assumptions that undermine a task without unnecessarily rejecting valid requests.  
 Answer:Because AI cannot disobey human instructions unless humans allow it.
